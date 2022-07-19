@@ -1,0 +1,9 @@
+.place{
+    display: grid;
+    width: 984px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 48px 40px;
+    justify-items: start;
+    align-items: start;
+}

@@ -3,7 +3,7 @@
     font-family: 'Inter';
 }
 
-body, header, img, nav, ul, li, h1, p, section {
+body, header, img, nav, ul, li, h1, p, section, figure, figcaption, h2, span, a {
     border: 1px solid red;
 }
   

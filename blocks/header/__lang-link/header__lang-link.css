@@ -10,7 +10,3 @@
     opacity: 0.8;
     color: #ffffff;
 }
-
-.header__lang-link:active{
-    text-decoration-line: underline;
-}
