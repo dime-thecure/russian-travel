@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +12,8 @@
         <img class ="header__logo" src="images/header-logo.svg" alt="Изображение карты России">
         <nav class="header__menu">
             <ul class="header__menu-items">
-                <li class="header__menu-item"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
-                <li class="header__menu-item"><a class="header__lang-link" href="#">En</a></li>
+                <li class="header__menu-item"><a class="link header__lang-link header__lang-link_active" href="#">Ru</a></li>
+                <li class="header__menu-item"><a class="link header__lang-link" href="#">En</a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +33,7 @@
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
             <div class="intro__list">
-                <p class="intro__list-item">Часовых поясов<span class="intro__list-item-info"> 11<span></p>
+                <p class="intro__list-item">Часовых поясов<span class="intro__list-item-info"> 11</span></p>
                 <p class="intro__list-item">Объектов природного наследия ЮНЕСКО<span class="intro__list-item-info"> 12</span></p>
                 <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО<span class="intro__list-item-info"> 16</span></p>
                 <p class="intro__list-item">Природных заповедников<span class="intro__list-item-info"> 105</span></p>
@@ -61,7 +61,7 @@
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="website">
                     <p class="website__url-heading">URL</p>
-                    <a class="website__link" href="#">park-kosa.ru</a>
+                    <a class="link website__link" href="http://park-kosa.ru">park-kosa.ru</a>
                 </div>
                 <img class="place__image" src="images/place-kosa.jpg" alt="тест">
                 <div class="paragraphs">
@@ -78,7 +78,7 @@
                 <h2 class="place__title">Кольский</h2>
                 <div class="website">
                     <p class="website__url-heading">URL</p>
-                    <a class="website__link" href="#">National Geographic</a>
+                    <a class="link website__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                 </div>
                 <img class="place__image" src="images/place-kolsky.jpg" alt="тест">
                 <div class="paragraphs">
@@ -95,7 +95,7 @@
                 <h2 class="place__title">Алтай</h2>
                 <div class="website">
                     <p class="website__url-heading">URL</p>
-                    <a class="website__link" href="#">Facebook</a>
+                    <a class="link website__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                 </div>
                 <img class="place__image" src="images/place-altai.jpg" alt="тест">
                 <div class="paragraphs">
@@ -112,7 +112,7 @@
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="website">
                     <p class="website__url-heading">URL</p>
-                    <a class="website__link" href="#">https://vk.com/baikalmile</a>
+                    <a class="link website__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                 </div>
                 <img class="place__image" src="images/place-winter-baikal.jpg" alt="тест">
                 <div class="paragraphs">
@@ -129,7 +129,7 @@
                 <h2 class="place__title">Карелия</h2>
                 <div class="website">
                     <p class="website__url-heading">URL</p>
-                    <a class="website__link" href="#">http://vodlozero.ru/</a>
+                    <a class="link website__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                 </div>
                 <img class="place__image" src="images/place-karelia.jpg" alt="тест">
                 <div class="paragraphs">
@@ -138,11 +138,27 @@
                     </p>
                 </div>
             </div>   
-
+        </section>
+    
+        <section class="cover">
+            <a class="link-overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+            <h2 class="link-overlay__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="link-overlay__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            </a>
         </section>
     </main>    
 
     <footer class="footer">
+        <nav>
+            <ul class="footer__menu">
+                <li><a class="footer__menu-item" href="https://yandex.ru/maps">Карты</a></li>
+                <li><a class="footer__menu-item" href="https://yandex.ru/pogoda">Погода</a></li>
+                <li><a class="footer__menu-item" href="https://rasp.yandex.ru">Расписание</a></li>
+                <li><a class="footer__menu-item" href="https://calendar.yandex.ru">Календарь</a></li>
+                <li><a class="footer__menu-item" href="https://travel.yandex.ru">Путешествия</a></li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">@ 2022. Дмитрий</p>
     </footer>
 </body>
 </html>
