@@ -1,18 +1,18 @@
-.paragraphs{
-    display: flex;
-    flex-direction: column;
-    gap: 27px; 
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
 
 @media screen and (max-width: 1023px) {
-    .paragraphs{
-        gap: 25px; 
-    }    
+  .paragraphs {
+    gap: 25px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .paragraphs{
-        width: 288px;
-        margin: 0 auto; 
-    }    
+  .paragraphs {
+    width: 288px;
+    margin: 0 auto;
+  }
 }

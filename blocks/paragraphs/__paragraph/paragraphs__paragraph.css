@@ -1,15 +1,15 @@
-.paragraphs__paragraph{
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    color: #FFFFFF;
+.paragraphs__paragraph {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1023px) {
-    .paragraphs__paragraph{
-        font-size: 16px;
-        line-height: 26px; 
-    }    
+  .paragraphs__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
