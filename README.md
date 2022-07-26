@@ -1,9 +1,14 @@
 # Проект: Путешествие по России
 
 ### Обзор
+* github-pages
 * Интро
 * Figma
 * Картинки
+
+**github-pages**
+
+* [Ссылка на github-pages](https://dime-thecure.github.io/russian-travel/)
 
 **Интро**
 

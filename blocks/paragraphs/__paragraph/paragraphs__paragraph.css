@@ -1,5 +1,6 @@
 .paragraphs__paragraph {
   margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -11,5 +12,11 @@
   .paragraphs__paragraph {
     font-size: 16px;
     line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraphs__paragraph {
+    padding: 0 16px;
   }
 }

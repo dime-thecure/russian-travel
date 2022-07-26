@@ -1,4 +1,4 @@
-.link-overlay__subtitle {
+.cover__subtitle {
   margin: 0;
   width: 360px;
   text-align: center;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .link-overlay__subtitle {
+  .cover__subtitle {
     width: 288px;
     font-size: 14px;
     line-height: 16px;

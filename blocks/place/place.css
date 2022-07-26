@@ -1,7 +1,7 @@
 .place {
   display: grid;
   width: 984px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 460px 1fr;
   grid-template-rows: auto;
   gap: 48px 40px;
   justify-items: start;
@@ -11,6 +11,7 @@
 @media screen and (max-width: 1279px) {
   .place {
     width: 928px;
+    grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
 }
@@ -18,6 +19,7 @@
 @media screen and (max-width: 1023px) {
   .place {
     width: 720px;
+    grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
 }

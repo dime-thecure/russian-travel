@@ -1,21 +1,25 @@
-.link-overlay {
+.cover__link-overlay {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-content: center;
   gap: 32px;
   margin: 0 auto;
   text-decoration: none;
-  height: 100%;
   background-color: rgba(42, 44, 47, 0.3);
 }
 
-.link-overlay:hover {
+.cover__link-overlay:hover {
   background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 767px) {
-  .link-overlay {
+  .cover__link-overlay {
     gap: 16px;
   }
 }
